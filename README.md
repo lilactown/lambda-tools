@@ -4,6 +4,8 @@ Tools for building serverless Clojure applications in AWS Lambda
 
 ## Usage
 
+[![Clojars Project](https://img.shields.io/clojars/v/lilactown/lambda-tools.svg)](https://clojars.org/lilactown/lambda-tools)
+
 Lein/boot coordinates: `[lilactown/lambda-tools "0.1.5"]`
 
 deps.edn: `lilactown/lambda-tools {:mvn/version "0.1.5"}`

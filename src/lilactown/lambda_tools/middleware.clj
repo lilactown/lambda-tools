@@ -1,4 +1,4 @@
-(ns lilactown/lambda-tools.middleware
+(ns lilactown.lambda-tools.middleware
   (:require [clojure.string :as s]
             [clojure.pprint :refer [pprint]]))
 

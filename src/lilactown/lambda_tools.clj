@@ -1,4 +1,4 @@
-(ns lilactown/lambda-tools.core
+(ns lilactown.lambda-tools
   (:require [clojure.data.json :as json]
             [clojure.string :as s]
             [clojure.java.io :as io]))

@@ -7,7 +7,7 @@ Tools for building serverless Clojure applications in AWS Lambda
 ```clojure
 (ns demoaws.core
   (:require [demoaws.lambda :refer [gen-lambda]]
-            [demoaws.middleware :refer [ring-adapter]]))
+            [demoaws.middleware :refer [http-ring-adapter]]))
 
 ;; Use a run-of-the-mill Ring handler
 (defn app [request]
@@ -20,7 +20,7 @@ Tools for building serverless Clojure applications in AWS Lambda
       ;; Apply the HTTP Ring adapter middleware
       ;; to convert the AWS HTTP event to a Ring-
       ;; compatible request
-      ring-adapter))
+      http-ring-adapter))
 
 (gen-lambda
   {:name demoaws.core.Greet

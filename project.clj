@@ -1,4 +1,4 @@
-(defproject lilactown/lambda-tools "0.1.1"
+(defproject lilactown/lambda-tools "0.1.2"
   :description "Tools for building serverless applications in AWS Lambda"
   :url "http://example.com/FIXME"
   :license {:name "MIT"

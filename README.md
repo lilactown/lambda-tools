@@ -4,6 +4,10 @@ Tools for building serverless Clojure applications in AWS Lambda
 
 ## Usage
 
+Lein/boot coordinates: `[lilactown/lambda-tools "0.1.0"]`
+
+deps.edn: `lilactown/lambda-tools {:mvn/version "0.1.0"}`
+
 ```clojure
 (ns demoaws.core
   (:require [demoaws.lambda :refer [gen-lambda]]
